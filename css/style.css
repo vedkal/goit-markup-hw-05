@@ -1534,7 +1534,19 @@ color: rgba(255, 255, 255, 0.6);
     width: 528px;
     min-height: 581px;
     background-color: #FFFFFF;
+    animation: animate125 3000ms infinite 1000ms;
 }
+
+@keyframes animate125 {
+    0% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(1.25);
+    }
+
+  }
 
 .close-btn {
     position: absolute;
